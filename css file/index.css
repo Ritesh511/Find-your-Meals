@@ -1,0 +1,190 @@
+              /* Body section  */
+body{
+  margin: 0;
+} 
+
+              /* Main section  */
+#main-div
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../backgraund.jpg");
+  background-size: cover;
+  overflow-y: scroll;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+
+            /* logo Section */
+
+div
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #a08a0b;
+  margin-bottom: 0.7%;
+}
+
+ h1
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #a6a7b6;
+  margin-bottom: 0.7%;
+  margin-right: 130px;
+}
+
+           /* Search Baar Section  */
+#search-div
+{
+  width: 50%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+}
+
+#search-div input
+{
+  height: 40%;
+  width: 50%;
+  margin-left: 19%;
+  font-size: 17px;
+  padding-left: 2%;
+}
+
+          /* Search button Section  */
+#search-div button{
+  background-color: #861917 ;
+  height: 40%;
+  color: white;
+  margin-left: 10%;
+}
+
+
+           /* Favourite   button Section */
+.images a{
+  display: inline-block;
+  width: 10%;
+  height: 8%;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid white;
+}
+
+
+          /* Menu for displaying meals */
+
+#meals-div
+{
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+         /* Menu card Section */
+
+.images
+{
+  width: 30%;
+  height: 45vh;
+  margin: 0 1% 2% 1%;
+  border: 1px solid #DFDFDF;
+  padding-bottom: 1%;
+}
+         /* Menu Name Section */
+
+.images h4
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #FDF3B7;
+  margin: 3%;
+}
+
+        /* Menu Images Section */
+
+.images img
+{
+  width: 100%;
+  height:73%;
+}
+
+         
+
+       /* More detail button Section */
+.images button
+{
+  background-color: #E0C555;
+  width: 45%;
+  height: 12%;
+  color: #3C2C10;
+  margin-left: 8%;
+  margin-right: 30%;
+}
+
+ 
+.clicked{
+  background-color: #DFDFDF !important;
+  color: red !important;
+}
+
+.images:hover{
+
+  box-shadow: 2px 2px 2px #DFDFDF,-2px -2px 2px #DFDFDF;
+
+}
+
+.border-circle
+{
+  border-radius: 50px;
+}
+
+           /* More details page Section */
+
+.details-page
+{
+  margin: 0 1% 2% 1%;
+  border: 1px solid #DFDFDF;
+  width: 70%;
+  color: white;
+  padding: 1%;
+  height: fit-content;
+}
+         /* More Image page Section */
+
+.details-page img
+{
+  margin-left: 10%;
+  width: 80%;
+  height:80vh;
+}
+
+.details-page h3
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #FDF3B7;
+  margin: 3%;
+}
+
+.details-page h5
+{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #FDF3B7;
+  margin: 0 50% 0 5%;
+  display: inline;
+}
+
